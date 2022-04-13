@@ -1,18 +1,8 @@
 {
-    "name": "testphp/vicep",
-    "authors": [
-        {
-            "name": "Victor Martins",
-            "email": "vitorchiesa74@gmail.com"
-        }
-    ],
-    "require": {
-    	"slim/slim":"2.0",
-    	"rain/raintpl":"3.0.0"
-    },
+    "name": "victor/viacep",
     "autoload": {
         "psr-4": {
-            "App\\": "vendor\\app\\php-classes\\src"
+            "App\\": "app/"
         }
     }
 }
