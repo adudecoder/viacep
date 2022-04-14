@@ -21,7 +21,8 @@
 
                 CURLOPT_URL => "https://viacep.com.br/ws/$cep/json/",
                 CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_CUSTOMREQUEST => "GET"
+                CURLOPT_CUSTOMREQUEST => "GET",
+                CURLOPT_SSL_VERIFYPEER => false
 
             ]);
 
